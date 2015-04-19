@@ -26,6 +26,7 @@ header.page-header {
 
 aside.more-info {
 	border: solid 1px black;
+	background-color: #C0C0C0;
 }
 
 aside.more-info img { 
