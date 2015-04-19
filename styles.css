@@ -1,6 +1,47 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
+body {background-image: url("images/hard-paper-texture.jpg");
+	background-size: contain;
+	font-family: serif;
+	}
 
-h1 {
-    color: green;
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+}
+header.page-header {
+	border: solid 1px black;
+}
+
+.page-header h1 {
+	margin-bottom: 0;
+}
+
+.page-header small {
+	font-size: medium;
+}
+
+.page-header p 
+	{margin-top: 0
+	}
+
+aside.more-info {
+	border: solid 1px black;
+}
+
+aside.more-info img { 
+	width:150px;
+	height: auto;
+}
+
+section#content {
+	border: solid 1px black;
+}
+
+.poem {
+	list-style-type: none;
+	font-size: large;
+	line-height: 1.4;}
+
+footer.page-footer {
+	border: solid 1px black;
 }
