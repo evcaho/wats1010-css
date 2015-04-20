@@ -25,17 +25,27 @@ header.page-header {
 	}
 
 aside.more-info {
-	border: solid 1px black;
+	width: 500px;
 	background-color: #C0C0C0;
+    float: right;
+	padding-right: 1.5rem
+}
+
+aside.more-info li {
+	padding-left: 1rem;
 }
 
 aside.more-info img { 
 	width:150px;
 	height: auto;
+	float: left;
+	padding-left: 2rem;
+	padding-right: 1rem
 }
 
 section#content {
 	border: solid 1px black;
+	float: left;
 }
 
 .poem {
@@ -44,5 +54,8 @@ section#content {
 	line-height: 1.4;}
 
 footer.page-footer {
-	border: solid 1px black;
+	background-color: #C0C0C0;
+    float: right;
+	padding-right: 1.5rem;
+	width: 500px;
 }
